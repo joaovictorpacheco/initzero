@@ -1,0 +1,33 @@
+.cabecalho{
+    background-color: #F2F2F2;
+    height: 70px;
+    width: 100%;
+    box-shadow: 2px 1px 3px #C2C2C2;
+}
+.headerInfo{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerInfo img{
+    width: 133px;
+}
+.navigation ul {
+    list-style: none;
+    width: 470px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: #6E4B87;
+}
+.navigation a{
+    text-decoration: none;
+    color: #6E4B87;
+    padding: 23px;
+}
+.navigation a:hover{
+    background-color: #dadada;
+}
