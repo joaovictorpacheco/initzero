@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&family=Roboto:wght@300;400;700&display=swap%27');
+
+
+.banner{
+    width:100%;
+    height:378px;
+    background: linear-gradient(90deg, rgba(40,10,60,1) 0%, rgba(65,30,90,1) 54%, rgba(110,75,135,1) 100%);
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.texto-banner h1{
+    color: #F0462D;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-left: 350px;  
+}
+.texto-banner h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-left: 380px; 
+    margin-bottom: 400px;
+        
+}
+.texto{
+    width: 100%;
+    height: 280px;
+    background-color: #ffff;
+    
+
+}
+.texto h1{
+    color: #6E4B87;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;  
+    position: relative;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.texto-info{
+    width: 80%;
+    height: 180px;
+    margin: auto;
+    
+}
+
+
+.texto-info h2 {
+    color: #000000;
+    font-size: 20px;
+    
+}
+
+.div-select {    
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+} 
+.div-select select {      
+    background-color: #6E4B87;     
+    background-position: 205px center;  /*Posição da imagem do background*/      
+    width: 386px; /* Tamanho do select, maior que o tamanho da div "div-select" */      
+    height:46px; /* altura do select, importante para que tenha a mesma altura em todo os navegadores */  
+    font-family:Arial, Helvetica, sans-serif; /* Fonte do Select */  
+    font-size:17px; /* Tamanho da Fonte */  
+    padding:13px 20px 13px 12px; /* Configurações de padding para posicionar o texto no campo */  
+    color:#fff; /* Cor da Fonte */
+          
+               
+    select::-ms-expand {display: none;} /* Remove seta padrão do IE*/ 
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+}
+

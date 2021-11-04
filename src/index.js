@@ -9,6 +9,7 @@ import Login from './pages/Login/login';
 import Teste from './pages/Teste/teste';
 import { Home } from './pages/Home/home';
 import { Areas } from './pages/Areas/areas';
+import { Portal } from './pages/Portal/portal';
 
 const routing = (
   <Router>
@@ -19,6 +20,7 @@ const routing = (
         <Route exact path='/home' component={Home}/>
         <Route exact path='/teste' component={Teste}/>
         <Route exact path='/areas' component={Areas}/>
+        <Route exact path='/portal' component={Portal}/>
       </Switch>
     </div>
   </Router>
