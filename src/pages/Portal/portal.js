@@ -9,7 +9,7 @@ export const Portal = () => {
             <Header/>
             <main>
                 <div className="banner">
-                    <div className="texto-banner">
+                    <div className="texto-ban">
                         <h1>
                             Portal de vagas 
                         </h1>
@@ -55,8 +55,65 @@ export const Portal = () => {
                     <option value="4">4</option>
                 </select>
                 </div>
-                <div>
+
+                <div className="container-vagas">
                     <div className="container">
+
+                        <div className="vagas1">
+
+                        </div>
+
+                        <div className="vagas2">
+
+                        </div>
+
+                        <div className="vagas3">
+
+                        </div>
+
+                        <div className="vagas4">
+
+                        </div>
+
+                    </div>
+
+                    <div className="container2">
+
+                        <div className="vagas5">
+
+                        </div>
+
+                        <div className="vagas6">
+
+                        </div>
+
+                        <div className="vagas7">
+
+                        </div>
+
+                        <div className="vagas8">
+
+                    </div>
+
+                    <div className="container3">
+
+                        <div className="vagas9">
+
+                        </div>
+
+                        <div className="vagas10">
+
+                        </div>
+
+                        <div className="vagas11">
+
+                        </div>
+
+                        <div className="vagas12">
+
+                        </div>
+
+                    </div>
 
                     </div>
                 </div>
