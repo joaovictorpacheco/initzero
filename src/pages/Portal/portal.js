@@ -92,6 +92,9 @@ export const Portal = () => {
                         </div>
 
                         <div className="vagas8">
+                            
+                        </div>
+                        
 
                     </div>
 
@@ -111,7 +114,7 @@ export const Portal = () => {
 
                         <div className="vagas12">
 
-                        </div>
+                        
 
                     </div>
 

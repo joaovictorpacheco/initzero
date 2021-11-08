@@ -7,6 +7,8 @@
     background: linear-gradient(90deg, rgba(40,10,60,1) 0%, rgba(65,30,90,1) 54%, rgba(110,75,135,1) 100%);
     margin-right: auto;
     margin-left: auto;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -14,18 +16,17 @@
     color: #ff0000;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    margin-left: 350px; 
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
 
 }
 .texto-ban h2{
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    margin-left: 380px; 
-    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
         
 }
 .texto{
@@ -80,12 +81,13 @@
     color:#fff; /* Cor da Fonte */  
 }
 .container-vagas{
-    height: auto;
+    justify-content: space-between;
+    
 }
 .container{
     background-color: rgb(255, 255, 255);
     width: 80%;
-    height: 300px;
+    height: 190px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -116,7 +118,7 @@
 .container2{
     background-color: rgb(255, 255, 255);
     width: 80%;
-    height: 90px;
+    height: 140px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -143,6 +145,37 @@
     width: 285px;
     height: 92px;
 }
+.container3{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between ;
+}
+.vagas9{
+    background-color: #F2F2F2;
+    width: 285px;
+    height: 92px;
+}
+.vagas10{
+    background-color: #F2F2F2;
+    width: 285px;
+    height: 92px;
+}
+.vagas11{
+    background-color: #F2F2F2;
+    width: 285px;
+    height: 92px;
+}
+.vagas12{
+    background-color: #F2F2F2;
+    width: 285px;
+    height: 92px;
+}
+
 
 
 
