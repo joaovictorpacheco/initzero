@@ -8,9 +8,9 @@ export const Etapas = () => {
         <>
             <Header/>
             <main>
-                <div className="banner">
+                <div className="ban">
                     
-                    <div className="titulo-banner">
+                    <div className="titulo-ban">
                         <h1>
                             Etapas 
                         </h1>

@@ -23,11 +23,11 @@ export const Areas = () => {
                         </p>
                     </div>
                 </div>
-                <div className="texto">
+                <div className="text">
                         <h1>
                         Trilhagem de carreira
                         </h1>
-                    <div className="texto-info">
+                    <div className="texto-in">
                         
                         <h2>
                         Muitas vezes nos perguntamos como chegar em alguma posição hierarquicamente superior em nossa empresa, ou até como mudar de foco, procurando outras áreas. Esse processo pode demandar muito tempo de organização e planejamento, mas com a trilhagem de carreira todo esse processo se torna mais fácil, já que mostramos o caminho a ser seguido para alcançar o seu objetivo na empresa. 

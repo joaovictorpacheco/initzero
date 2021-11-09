@@ -24,7 +24,7 @@ export const Portal = () => {
                         <h1>
                         vagas
                         </h1>
-                    <div className="texto-info">
+                    <div className="texto-i">
                         
                         <h2>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed tortor feugiat, imperdiet sapien auctor, ultrices elit. Sed blandit interdum elementum. Proin eu est a orci tincidunt hendrerit.. 
@@ -42,14 +42,14 @@ export const Portal = () => {
                 </select>
                 <select id="Trilha">
                     <option value="0" selected>Trilha</option>
-                    <option value="1">fdffsafefsefeafggr</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                 </select>
                 <select id="Cargo">
                 <option value="0" selected>Cargo</option>
-                    <option value="1">fdffsafefsefeafggr</option>
+                    <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>

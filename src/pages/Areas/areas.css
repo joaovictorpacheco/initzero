@@ -5,17 +5,15 @@
     width:100%;
     height:378px;
     background: linear-gradient(90deg, rgba(40,10,60,1) 0%, rgba(65,30,90,1) 54%, rgba(110,75,135,1) 100%);
-    display: flex;
     
 }
 .imagem-area{
     background: url(../../assets/img/area.png) no-repeat ;
-    background-size: cover;
     height: 100%;
-    width: 500px;
-   
+    width: 448px;
     
-   
+    justify-content: flex-start;
+    
 }
 
 
@@ -23,18 +21,21 @@
     color: #FFB200;
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    margin-left: 90px;
-    margin-top: 50px;
+    justify-content: flex-end;
+    display: flex;
+    
+    
+    
+
     
 }
 .texto-banner h2{
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    margin-left: 200px;
-    margin-top: 60px;
+    justify-content: flex-end;
+    display: flex;
+    
     
 
 }
@@ -42,37 +43,38 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    position: relative;
-    margin-left: 200px;
-    margin-top: 20px;
+    justify-content: flex-end;
+    display: flex;
+    
 }
 
-.texto{
-    width: 100%;
+.text{
+    width: 70%;
     height: 300px;
     background-color: #ffff;
     margin: auto;
+    
+    
 
 }
-.texto h1{
+.text h1{
     color: #6E4B87;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;  
-    position: relative;
-    margin-left: 270px;
-    margin-top: 40px;
+    margin-top: 50px;
+    
 }
-.texto-info{
+.texto-in{
     width: 800px;
     height: 180px;
     
 }
-
-
-.texto-info h2 {
+.texto-in h2 {
     color: #2c2b2b;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 .conhecimento{
     width: 60%;
@@ -85,10 +87,7 @@
     font-size: 40px;
     font-family: 'Roboto', sans-serif;  
     position: relative;
-    margin-bottom: 40px;
-    
-    
-    
+    margin-bottom: 40px;    
 }  
     
 

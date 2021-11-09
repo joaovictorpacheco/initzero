@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     justify-content: flex-start;
+    margin-bottom: 60px;
 
 }
 .texto-ban h2{
@@ -44,15 +45,15 @@
     margin-left: 150px;
     margin-top: 40px;
 }
-.texto-info{
+.texto-i{
     width: 80%;
     height: 180px;
     margin: auto;
-    
+       
 }
 
 
-.texto-info h2 {
+.texto-i h2 {
     color: #000000;
     font-size: 20px;
     
@@ -67,6 +68,7 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 90px;
 
     
 } 
@@ -87,7 +89,7 @@
 .container{
     background-color: rgb(255, 255, 255);
     width: 80%;
-    height: 190px;
+    height: 150px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -118,7 +120,7 @@
 .container2{
     background-color: rgb(255, 255, 255);
     width: 80%;
-    height: 140px;
+    height: 150px;
     margin: auto;
     display: flex;
     align-items: center;
