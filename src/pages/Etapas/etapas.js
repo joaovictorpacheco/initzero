@@ -21,9 +21,9 @@ export const Etapas = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur est ante, pretium vitae turpis fermentum, eleifend maximus quam. Morbi felis erat, tempor in orci at, consequat imperdiet turpis.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur est ante, pretium vitae turpis fermentum, eleifend maximus quam. Morbi felis erat, tempor in orci at, consequat imperdiet turpis.  </p>
                     <div className="texto-inf">
                         <h1>Requisitos</h1>
-                        <h2>
+                        <p>
                         Muitas vezes nos perguntamos como chegar em alguma posição hierarquicamente superior em nossa empresa, ou até como mudar de foco, procurando outras áreas. Esse processo pode demandar muito tempo de organização e planejamento, mas com a trilhagem de carreira todo esse processo se torna mais fácil, já que mostramos o caminho a ser seguido para alcançar o seu objetivo na empresa. 
-                        </h2>
+                        </p>
                                             
                     </div>
                 </div>

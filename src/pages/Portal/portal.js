@@ -26,9 +26,9 @@ export const Portal = () => {
                         </h1>
                     <div className="texto-i">
                         
-                        <h2>
+                        <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed tortor feugiat, imperdiet sapien auctor, ultrices elit. Sed blandit interdum elementum. Proin eu est a orci tincidunt hendrerit.. 
-                        </h2>
+                        </p>
                                             
                     </div>
                 </div>
