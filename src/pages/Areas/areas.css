@@ -20,13 +20,15 @@
 
 
 .texto-banner h1{
-    color: #ff1100;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    
+    font-size: 3em;
+    background: -webkit-linear-gradient(left, #D23C28 50%, #FFB200 50%);
+    background: linear-gradient(to right, #D23C28 , #FFB200 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Dosis', sans-serif;
     display: flex;
     margin-left: 120px;
-    margin-top: 55px;
+    margin-top: 40px;
     
     
     
@@ -36,7 +38,7 @@
 }
 .texto-banner h2{
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 36px;
     font-family: 'Roboto', sans-serif;
     display: flex;
     margin-left: 200px;
@@ -47,7 +49,7 @@
 }
 .texto-banner p{
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
     display: flex;
     margin-left: 200px;
@@ -84,7 +86,7 @@
 }
 .conhecimento{
     width: 60%;
-    height: 300px;
+    height: 150px;
     background-color: #ffff;
     margin: auto;
 }
@@ -111,9 +113,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 350px;
     /*flex-direction: column;*/
     background-color:#fff;
+    margin: auto;
   
   }
   
@@ -135,7 +138,7 @@
   .slide-content{
     background-color:#fff;
     width: 300px;
-    height: 300px;
+    height: 200px;
     color: #6E4B87;
    /* margin: auto;*/
    /* border: 2px solid #ddd;*/
@@ -166,4 +169,39 @@
   
   .user-testimonial{
     font-size: large;
+  }
+  .btnn {
+    border: none;
+    color: #fff;
+    border-radius: 100px;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    -webkit-transition-duration: 0.4s;
+    font-size: 20px;
+    font-weight: 500px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .btn__gerenciador {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #6E4B87;
+    color: #fff(243, 8, 8);
+    width: 179px;
+    height: 48px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    
+  }
+  
+  .btn__gerenciador:hover {
+    background-color: #5a3d6e;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
   }

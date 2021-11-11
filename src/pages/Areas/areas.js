@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
+import Button from '@restart/ui/esm/Button';
+import { ButtonGroup } from 'react-bootstrap';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
@@ -12,10 +14,10 @@ const data = [
     {    id: 1,
         username: 'Desenvolvimento',
         testimonial: 'Loren ipsum dolor sit'
-        
+       
     },
    
-    {   
+    {    
          id:2,
         username: 'Recursos Humanos',
         testimonial: 'Loren ipsum dolor sit'
@@ -108,7 +110,7 @@ export const Areas = () => {
                         </div>  
                         <h3>{user.username}</h3>  
                         <p className="user-testimonial">
-                             " <i>{user.testimonial}</i> "
+                        <button className="btnn btn__gerenciador" >Acessar</button>
                         </p>
                     </div>
                 </SwiperSlide> 

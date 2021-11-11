@@ -11,6 +11,7 @@ import { Home } from './pages/Home/home';
 import { Areas } from './pages/Areas/areas';
 import { Portal } from './pages/Portal/portal';
 import { Etapas } from './pages/Etapas/etapas';
+import {Gerenciador} from './pages/Gerenciador/gerenciador';
 
 const routing = (
   <Router>
@@ -23,6 +24,7 @@ const routing = (
         <Route exact path='/areas' component={Areas}/>
         <Route exact path='/portal' component={Portal}/>
         <Route exact path='/etapas' component={Etapas}/>
+        <Route exact path='/gerenciador' component={Gerenciador}/>
       </Switch>
     </div>
   </Router>
