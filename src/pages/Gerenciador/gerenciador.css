@@ -8,17 +8,11 @@
     display: flex;
     
 }
-.imagem-area{
+.imag-area{
     background: url(../../assets/img/geren.png) no-repeat ;
     height: 100%;
-    width: 448px;
-
-    
-    
-    
+    width: 448px; 
 }
-
-
 .banner-text h1{
     font-size: 3em;
     background: -webkit-linear-gradient(left, #D23C28 50%, #FFB200 50%);
@@ -29,12 +23,6 @@
     display: flex;
     margin-left: 120px;
     margin-top: 40px;
-    
-    
-    
-    
-
-    
 }
 .banner-text h2{
     color: rgb(255, 255, 255);
@@ -43,8 +31,6 @@
     display: flex;
     margin-left: 200px;
     margin-top: 50px;
-    
-    
 
 }
 .banner-text p{
@@ -61,18 +47,13 @@
     height: 100px;
     background-color: #ffff;
     margin: auto;
-    
-    
-
 }
 .tex p{
     color: #000000;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;  
-    margin-top: 25px;
-    
+    margin-top: 25px;    
 }
-
 .vagas{
     width: 80%;
     height: 800px;
@@ -94,8 +75,6 @@
     display: flex;
 
 }
-
- 
  /*wsiwkikq*/
    .roww {
      display: flex;
@@ -137,8 +116,8 @@
    .text-card {
      color:#6E4B87; 
      text-align: center;
- 
  }
+ /*fim botão */
  .traco-roxo{
     justify-content: center;
     display: flex;
@@ -173,7 +152,7 @@
     margin-top: 25px;
  }
  .vagas-areas{
-    height: 205px;
+    height: 90px;
     width: 80%;
     justify-content: center;
     margin: auto;
@@ -183,3 +162,89 @@
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
  }
+ .mais h1{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    color: #6E4B87;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+ }
+ .box-areas{
+     height: 200px;
+     width: 70%;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     margin: auto;   
+ }
+ /*cards em baixo*/
+ .btnn {
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    -webkit-transition-duration: 0.4s;
+    font-size: 20px;
+    font-weight: 500px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .btn__geren {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #6E4B87;
+    color: #fff(243, 8, 8);
+    width: 146px;
+    height: 38px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    
+  }
+  
+  .btn__geren:hover {
+    background-color: #5a3d6e;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+    box-shadow: 2px 2px 5px 0px rgba(184, 184, 184, 1);
+  }
+
+
+  .cards-gerenciador {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 3px 3px rgba(50, 50, 50, 0.22);
+    padding: 35px;
+    margin: 10px;
+    width: 387px;
+    height: 70px;
+
+  }
+
+  .cards-gerenciador:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .cards-gerenciador p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+
+  .texto-card {
+    color:#6E4B87; 
+    text-align: center;
+
+}
+.pe{
+    height: 150px;
+    width: 90%;
+}

@@ -110,7 +110,7 @@ export const Areas = () => {
                         </div>  
                         <h3>{user.username}</h3>  
                         <p className="user-testimonial">
-                        <button className="btnn btn__gerenciador" >Acessar</button>
+                        <button className="bt btn__gerenciador" >Acessar</button>
                         </p>
                     </div>
                 </SwiperSlide> 

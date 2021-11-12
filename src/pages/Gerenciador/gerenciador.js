@@ -9,17 +9,17 @@ export const Gerenciador = () => {
             <Header/>
             <main>
                 <div className="bann">
-                    <div className="imagem-area">
+                    <div className="imag-area">
                     </div>
                     <div className="banner-text">
                         <h1>
-                            Gerenciador
+                            gerenciador
                         </h1>
                         <h2>
-                            Gerencie aqui todo o sistema
+                            gerencie aqui todo o sistema
                         </h2>
                         <p>
-                        Verifique as vagas, as postagens e o plano de carreira
+                        verifique as vagas, as postagens e o plano de carreira
                         </p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export const Gerenciador = () => {
                 </div>
                 <div className="vagas">
                     <h1>
-                        Vagas
+                        vagas
                     </h1>
                         <div className="vagas-container">
                             <h1>+</h1>
@@ -64,12 +64,10 @@ export const Gerenciador = () => {
                                 
                                     <div class="cards-gere">
                                         <h2 className="text-card">vaga</h2>
-                                       
                                     </div>
                                 
                                     <div class="cards-gere">
-                                        <h2 className="text-card">vaga</h2>
-                                        
+                                        <h2 className="text-card">vaga</h2> 
                                     </div>
                                 </div>
                             </section>
@@ -82,6 +80,7 @@ export const Gerenciador = () => {
                                 
                                     <div class="cards-gere">
                                         <h2 className="text-card">vaga</h2>
+                                        
                                        
                                     </div>
                                 
@@ -101,27 +100,76 @@ export const Gerenciador = () => {
                             
                 </div>
                             <section className="planos">
-                                            <h1>Planos de Carreira</h1>
+                                            <h1>planos de carreira</h1>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed tortor feugiat, imperdiet sapien auctor, ultrices elit. Sed blandit interdum elementum. Proin eu est a orci tincidunt hendrerit..</p>
                            </section>
 
 
                 <div className="vagas-areas">
-                    <h1>Áreas</h1>
+                    <h1>áreas</h1>
                 </div>
+                <div className="mais">
+                    <h1>+</h1>
+                </div>
+                <div className="box-areas">
+                    <div class="cards-gerenciador">
+                            <h2 className="texto-card">desenvolvimento</h2>
+                            <button className="btnn btn__geren" >Acessar</button>
+                        </div>
 
+                        <div class="cards-gerenciador">
+                            <h2 className="texto-card">gestão</h2>
+                            <button className="btnn btn__geren" >Acessar</button>
+                        </div>
 
-                <div class="cards-gere">
-                        <h2 className="text-card">trilha</h2>
-                        <button className="btnn btn__gerenciador" >Acessar</button>
-                        <footer>
-                        <button className="bt btn__baixo" ></button>
-                        </footer>
+                        <div class="cards-gerenciador">
+                            <h2 className="texto-card">recursos humanos</h2>
+                            <button className="btnn btn__geren" >Acessar</button>
+                        </div>
                     </div>
-                
 
-                
-                                
+
+                    <div className="box-areas">
+                    <div class="cards-gerenciador">
+                            <h2 className="texto-card">desenvolvimento</h2>
+                            <button className="btnn btn__geren" >Acessar</button>
+                        </div>
+
+                        <div class="cards-gerenciador">
+                            <h2 className="texto-card">gestão</h2>
+                            <button className="btnn btn__geren" >Acessar</button>
+                        </div>
+
+                        <div class="cards-gerenciador">
+                            <h2 className="texto-card">recursos humanos</h2>
+                            <button className="btnn btn__geren" >Acessar</button>
+                        </div>
+                    </div>
+                    
+                    <div className="box-areas">
+
+
+                    <div class="cards-gerenciador">
+                            <h2 className="texto-card">desenvolvimento</h2>
+                            <button className="btnn btn__geren" >Acessar</button>
+                        </div>
+
+                        <div class="cards-gerenciador">
+                            <h2 className="texto-card">gestão</h2>
+                            <button className="btnn btn__geren" >Acessar</button>
+                        </div>
+
+                        <div class="cards-gerenciador">
+                            <h2 className="texto-card">recursos humanos</h2>
+                            <button className="btnn btn__geren" >Acessar</button>
+                        </div>
+                    </div>
+
+                    <section className="pe">
+
+                    </section>
+
+                              
             </main>
             </>
     )
