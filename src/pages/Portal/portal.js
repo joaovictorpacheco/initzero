@@ -11,7 +11,7 @@ export const Portal = () => {
                 <div className="banner">
                     <div className="texto-ban">
                         <h1>
-                            Portal de vagas 
+                            portal de vagas 
                         </h1>
                         <h2>
                             Através do direciomento dado pela trilha de 
@@ -59,63 +59,50 @@ export const Portal = () => {
                 <div className="container-vagas">
                     <div className="container">
 
-                        <div className="vagas1">
-
-                        </div>
-
-                        <div className="vagas2">
-
-                        </div>
-
-                        <div className="vagas3">
-
-                        </div>
-
-                        <div className="vagas4">
-
-                        </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
 
                     </div>
 
                     <div className="container2">
 
-                        <div className="vagas5">
-
-                        </div>
-
-                        <div className="vagas6">
-
-                        </div>
-
-                        <div className="vagas7">
-
-                        </div>
-
-                        <div className="vagas8">
-                            
-                        </div>
-                        
-
+                    <div class="cards-gere">
+                       <h2 className="text-card">vaga</h2> 
+                    </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
                     </div>
 
                     <div className="container3">
 
-                        <div className="vagas9">
-
-                        </div>
-
-                        <div className="vagas10">
-
-                        </div>
-
-                        <div className="vagas11">
-
-                        </div>
-
-                        <div className="vagas12">
-
-                        
-
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
+                    </div>
+                    <div class="cards-gere">
+                        <h2 className="text-card">vaga</h2> 
                     </div>
 
                     </div>

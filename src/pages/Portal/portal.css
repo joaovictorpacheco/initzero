@@ -14,7 +14,10 @@
 }
 
 .texto-ban h1{
-    color: #ff0000;
+    background: -webkit-linear-gradient(left, #D23C28 50%, #FFB200 50%);
+    background: linear-gradient(to right, #D23C28 , #FFB200 80%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     display: flex;

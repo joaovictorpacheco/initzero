@@ -58,19 +58,19 @@ export const Areas = () => {
                     </div>
                     <div className="texto-banner">
                         <h1>
-                            Nosso plano de carreira 
+                            nosso plano de carreira 
                         </h1>
                         <h2>
-                            Vamos juntos em direção ao sucesso!
+                            vamos juntos em direção ao sucesso!
                         </h2>
                         <p>
-                        aqui mostramos o caminho que você pode trilhar para <br/> alcançar seus objetivos dentro da empresa
+                        Aqui mostramos o caminho que você pode trilhar para <br/> alcançar seus objetivos dentro da empresa
                         </p>
                     </div>
                 </div>
                 <div className="text">
                         <h1>
-                        Trilhagem de carreira
+                        trilhagem de carreira
                         </h1>
                     <div className="texto-in">
                         
@@ -82,7 +82,7 @@ export const Areas = () => {
                 </div>
                 <div className="conhecimento">
                     <h1>
-                        Áreas do conhecimento na nossa empresa
+                        áreas do conhecimento na nossa empresa
                     </h1>
                         <div className="texto-conhecimento">
                             <p>

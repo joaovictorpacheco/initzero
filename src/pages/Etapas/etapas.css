@@ -14,7 +14,10 @@
 
 
 .titulo-ban h1{
-    color: #ff1100;
+  background: -webkit-linear-gradient(left, #D23C28 50%, #FFB200 50%);
+  background: linear-gradient(to right, #D23C28 , #FFB200 80%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-size: 60px;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -67,12 +70,7 @@
     width: 80%;
     height: 500px;
     margin: auto;
-    justify-content: space-between;
-    
-    
-    
-    
-    
+    justify-content: space-between;    
 }
 .box1{
     width: 1197px;
@@ -112,4 +110,3 @@
     align-items: center;
     justify-content: center;
 }
-
