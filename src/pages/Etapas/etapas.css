@@ -74,17 +74,20 @@
 }
 .box1{
     width: 1197px;
+    box-shadow: 0px 0px 3px 3px rgb(50 50 50 / 22%);
     height: 81px;
-    background-color: #EDEDED;
+    background-color: white;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .box2{
+    box-shadow: 0px 0px 3px 3px rgb(50 50 50 / 22%);
+
     width: 1197px;
     height: 81px;
-    background-color: #EDEDED;
+    background-color: white;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -94,7 +97,8 @@
 .box3{
     width: 1197px;
     height: 81px;
-    background-color: #EDEDED;
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px rgb(50 50 50 / 22%);
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -104,7 +108,8 @@
 .box4{
     width: 1197px;
     height: 81px;
-    background-color: #EDEDED;
+    box-shadow: 0px 0px 3px 3px rgb(50 50 50 / 22%);
+    background-color: white;
     margin-top: 20px;
     display: flex;
     align-items: center;
